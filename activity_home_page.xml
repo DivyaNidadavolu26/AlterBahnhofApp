@@ -20,9 +20,141 @@
     <androidx.cardview.widget.CardView
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginTop="420dp"
-        app:cardBackgroundColor="@color/cardview_shadow_start_color" />
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color" >
+
+        <Button
+            android:id="@+id/emp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:backgroundTint="#2B2929"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/atomic_age"
+            android:text="Employee"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+           />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="65dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/ic_action_emp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="420dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:backgroundTint="#2B2929" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/atomic_age"
+            android:text="Calendar"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="65dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/ic_action_cal" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="600dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:backgroundTint="#2B2929" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/atomic_age"
+            android:text="Shift Plan"
+            android:textColor="@color/yellow"
+            android:textSize="25dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="65dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/ic_action_shift" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="600dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="50dp" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:backgroundTint="#2B2929" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/atomic_age"
+            android:text="Statistics"
+            android:textColor="@color/orange"
+            android:textSize="25dp"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/ic_action_stats" />
+    </androidx.cardview.widget.CardView>
 
 
 </RelativeLayout>

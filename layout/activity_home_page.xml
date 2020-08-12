@@ -96,7 +96,7 @@
         android:fontFamily="@font/atomic_age"
         android:text="Shift Plan"
         android:textColor="@color/yellow"
-        android:textSize="30dp" />
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/button7"
@@ -109,7 +109,7 @@
         android:fontFamily="@font/atomic_age"
         android:text="Employee"
         android:textColor="@color/colorPrimary"
-        android:textSize="30dp" />
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/button8"
@@ -122,7 +122,7 @@
         android:fontFamily="@font/atomic_age"
         android:text="Calendar"
         android:textColor="@color/colorAccent"
-        android:textSize="30dp" />
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/button9"
@@ -135,7 +135,7 @@
         android:fontFamily="@font/atomic_age"
         android:text="Statistics"
         android:textColor="@color/orange"
-        android:textSize="30dp" />
+        android:textSize="25dp" />
 
 
 </RelativeLayout>
